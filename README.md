@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/dslemay/gatsby-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/dslemay/gatsby-starter)
 # Jr Developer Website
 
-This site will be the web presence for [Portland Junior Developer](https://www.meetup.com/Portland-JR-DEVELOPER-Meetup/) meetup group.  It's being built by members of the group and will evolve to meet the needs of the organization and its members.  If you would like to contribute to this project, take a look at the quick guide below, but also the [`CONTRIBUTING.md`](https://github.com/kdv24/Jr-Developer-Site/blob/master/CONTRIBUTING.md) file for a more complete description of how to get the site up and running and make your best contribution! 💻 😊 🎉
+This site will be the web presence for [Portland Junior Developer](https://www.meetup.com/Portland-JR-DEVELOPER-Meetup/) meetup group.  It's being built by members of the group and will evolve to meet the needs of the organization and its members.  If you would like to contribute to this project, take a look at the quick guide below, but also the [`CONTRIBUTING.md`](https://github.com/Portland-JR-Devs/jr-dev-site2020/blob/master/CONTRIBUTING.md) file for a more complete description of how to get the site up and running and make your best contribution! 💻 😊 🎉
 
 ## Contributing
 
