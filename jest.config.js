@@ -8,19 +8,12 @@ module.exports = {
     ".+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
       "<rootDir>/__mocks__/file-mock.js",
   },
-  setupFilesAfterEnv: [
-    "@testing-library/jest-dom/extend-expect",
-    "<rootDir>/test-utils/setup-tests.js",
-  ],
-  testPathIgnorePatterns: ["node_modules", ".cache"],
+  setupFiles: [`<rootDir>/loadershim.js`],
+  testPathIgnorePatterns: [`node_modules`, `\\.cache`, `<rootDir>.*/public`],
   transform: {
-    "^.+\\.jsx?$": "<rootDir>/test-utils/jest-preprocess.js",
+    "^.+\\.jsx?$": "<rootDir>jest-preprocess.js",
   },
   testURL: "http://localhost",
   // Ignore Gatsby as some modules are not transpiled
   transformIgnorePatterns: ["node_modules/(?!(gatsby)/)"],
-  watchPlugins: [
-    "jest-watch-typeahead/filename",
-    "jest-watch-typeahead/testname",
-  ],
 }
