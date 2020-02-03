@@ -96,3 +96,5 @@ If you do not want to include Storybook in your project it can be removed entire
 ## Gatsby Themes
 
 This starter uses Gatsby themes to abstract some of the common plugin installs, dependency management, and addition to `gatsby-config.js`. These dependencies are wrapped into `gatsby-theme-dslemay-core`. For more information about the purpose behind Gatsby themes, check out [Why Themes?](https://www.gatsbyjs.org/blog/2019-01-31-why-themes/) on Gatsby's blog. To see the configuration options for the theme, check out the [package's README](https://github.com/dslemay/gatsby-themes/blob/master/packages/gatsby-theme-dslemay-core/README.md).
+
+### Thanks for reading!
