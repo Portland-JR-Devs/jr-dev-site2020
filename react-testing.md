@@ -10,7 +10,7 @@ I found it helpful to review the [Dom Testing Library](https://testing-library.c
 [React Testing Library: GitHub](https://github.com/testing-library/react-testing-library)  
 [React Testing Library: A Basic Example](https://github.com/testing-library/react-testing-library#basic-example)
 
-The [Example.js](./src/components/example/Example.js) & [Example.testing.js](./src/components/example/Example.testing.js) files in our repo use the React Testing Library docs' [Basic Example](https://github.com/testing-library/react-testing-library#basic-example) as a starting point for testing an even more basic component. They then expand to use a simplified version of the React Testing Library docs' [intro example](https://testing-library.com/docs/react-testing-library/example-intro). [Here](./how-to-test.md) is a breakdown of what is going on in these tests.
+The [Example.js](./src/components/example/Example.js) & [Example.test.js](./src/components/example/Example.test.js) files in our repo use the React Testing Library docs' [Basic Example](https://github.com/testing-library/react-testing-library#basic-example) as a starting point for testing an even more basic component. They then expand to use a simplified version of the React Testing Library docs' [intro example](https://testing-library.com/docs/react-testing-library/example-intro). [Here](./HOW-TO-TEST.md) is a breakdown of what is going on in these tests.
 
 And finally . . .  
 [React Testing Library: Cheatsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet)
