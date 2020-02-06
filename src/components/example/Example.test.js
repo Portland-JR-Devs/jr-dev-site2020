@@ -11,37 +11,31 @@ import ExampleComponent from "./Example"
 
 test("shows component title", () => {
   // ARRANGE
-  const title = "Zombie Apocalypse"
-  render(<ExampleComponent componentTitle={title}></ExampleComponent>)
+  render(<ExampleComponent />)
+
+  const regexForTitle = /zombie apocalypse/i
+
+  // Get the element that has the text we expect.
+  const elementWithExpectedText = screen.queryByText(regexForTitle)
 
   // ACT
-  // 1. Get the element that has the text we expect.
-  const elementWithExpectedText = screen.getByText(/zombie apocalypse/i)
+  // No user action involved here so no action to take.
 
-  //ASSERT
-  // the queries can accept a regex to make your selectors more resilient to content tweaks and changes.
-  // .toBeInTheDocument() is an assertion that comes from jest-dom
-  // otherwise you could use .toBeDefined()
-
+  // ASSERT
+  // Confirm the element has the expected text
   expect(elementWithExpectedText).toBeInTheDocument()
-
-  expect(elementWithExpectedText).toHaveAttribute("id", "example-title")
 })
 
 test("button click displays a message", () => {
   // ARRANGE
-  const { queryByText, getByText, getByRole } = render(
-    <ExampleComponent componentTitle="Zombie Apocalypse" />
-  )
+  const { queryByText, getByText, getByRole } = render(<ExampleComponent />)
   // ASSERT BEFORE ACTING
   expect(queryByText(/you've been bitten!/i)).toBeNull()
-  expect(getByRole("button")).toHaveTextContent(/dead inside/i)
 
   // ACT
   fireEvent.click(getByText(/dead inside/i))
 
   // ASSERT AFTER ACTING
   expect(getByText(/you've been bitten!/i)).toBeInTheDocument()
-  expect(getByRole("button")).toHaveTextContent(/zombies!!!/i)
   expect(getByRole("button")).toHaveAttribute("disabled")
 })

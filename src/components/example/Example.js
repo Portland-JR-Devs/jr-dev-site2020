@@ -1,11 +1,11 @@
 import React, { useState } from "react"
 
-const ExampleComponent = props => {
+const ExampleComponent = () => {
   const [infection, setInfection] = useState("")
   const [buttonClicked, setButtonClicked] = useState(false)
   const buttonText = buttonClicked ? "ZOMBIES!!!" : "Dead Inside"
 
-  function zombieAttack() {
+  const zombieAttack = () => {
     setInfection("You've been bitten!")
     setButtonClicked(true)
   }
@@ -13,7 +13,7 @@ const ExampleComponent = props => {
   return (
     <>
       <h1>An Example Page Component</h1>
-      <h2 id="example-title">{props.componentTitle}</h2>
+      <h2>Zombie Apocalypse</h2>
       <p>
         Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora
         quaeritis. Summus sit​​, morbo vel maleficia? De Apocalypsi undead
@@ -26,7 +26,7 @@ const ExampleComponent = props => {
       <button onClick={zombieAttack} disabled={buttonClicked}>
         {buttonText}
       </button>
-      {infection ? <h1 data-testid="message">{infection}</h1> : null}
+      {infection ? <h1>{infection}</h1> : null}
     </>
   )
 }
