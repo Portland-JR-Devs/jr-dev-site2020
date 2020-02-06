@@ -11,7 +11,7 @@ I found it helpful to review the [Dom Testing Library](https://testing-library.c
 [React Testing Library: A Basic Example](https://github.com/testing-library/react-testing-library#basic-example)  
 [Using the State Hook](https://reactjs.org/docs/hooks-state.html)
 
-The [Example.js](./Example.js) & [Example.testing.js](./Example.testing.js) files in our repo use the React Testing Library docs' [Basic Example](https://github.com/testing-library/react-testing-library#basic-example) as a starting point for testing an even more basic component. They then expand to use a simplified version of the React Testing Library docs' [intro example](https://testing-library.com/docs/react-testing-library/example-intro). [Here]() is a breakdown of what is going on in these tests.
+The [Example.js](./Example.js) & [Example.testing.js](./Example.testing.js) files in our repo use the React Testing Library docs' [Basic Example](https://github.com/testing-library/react-testing-library#basic-example) as a starting point for testing an even more basic component. They then expand to use a simplified version of the React Testing Library docs' [intro example](https://testing-library.com/docs/react-testing-library/example-intro). [Here](./example-testing.md) is a breakdown of what is going on in these tests.
 
 And finally . . .  
 [React Testing Library: Cheatsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet)
