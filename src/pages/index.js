@@ -3,12 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
-<<<<<<< HEAD
-// import ExampleComponent from '../components/example/Example';
-import About from '../components/about/About'
-=======
 import ExampleComponent from "../components/example/Example"
->>>>>>> master
+import About from "../components/about/About"
 
 const IndexPage = () => (
   <Layout>
