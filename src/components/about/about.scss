@@ -1,0 +1,11 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'sans-serif';
+}
