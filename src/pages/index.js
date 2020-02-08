@@ -17,6 +17,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link> */}
+    <ExampleComponent />
     <About />
   </Layout>
 )
