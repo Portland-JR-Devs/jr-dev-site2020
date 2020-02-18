@@ -17,7 +17,8 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link> */}
-    <ExampleComponent />
+    {/* <ExampleComponent /> */}
+    {/* Commented out <ExampleComponent /> to not mess up the about component */}
     <About />
   </Layout>
 )
