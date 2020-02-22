@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import ExampleComponent from "../components/example/Example"
+import CodeOfConduct from "../components/CodeOfConduct"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <CodeOfConduct />
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
