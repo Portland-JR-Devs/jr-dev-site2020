@@ -4,7 +4,7 @@ import "./about.scss"
 const About = props => {
   return (
     <>
-      <div className="outer-container">
+      <div className="wrapper-container">
         <div className="about-container">
           <h1>
             <span id="about-us-header">ABOUT US</span>
@@ -35,6 +35,9 @@ const About = props => {
             nisl sapien, convallis id turpis in, accumsan dignissim turpis.
             Nulla interdum ut justo quis ultrices.
           </p>
+        </div>
+        <div className="blush-background-container">
+          <div className="solid-background-container"></div>
         </div>
       </div>
     </>

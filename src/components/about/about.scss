@@ -1,18 +1,34 @@
-.outer-container {
+.wrapper-container {
+  position: relative;
+  left: 0;
+  width: 100vw;
+  height: 90vh;
+  margin: 0;
+  // z-index: -1;
+}
+.solid-background-container {
+  width: 100%;
+  height: 20vh;
+  // margin: auto;
+  background-color: #f8cd2f;
+}
+.blush-background-container {
   margin: 0 auto;
-  height: 500px;
-  width: 95%;
-  background: radial-gradient(at 50% -50%, #fccf2b 250px, #fff 75%, #fff 50%);
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(at 50% -50%, #f8cd2f 250px, #fff 75%, #fff 50%);
 }
 
 .about-container {
-  position: relative;
-  top: -140px;
+  position: absolute;
+  top: 0;
+  left: 10vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
+  height: 100%;
   margin: auto;
   padding: 100px 50px 0;
   text-align: center;
