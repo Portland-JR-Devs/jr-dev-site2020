@@ -41,3 +41,22 @@
   letter-spacing: 3px;
   font-weight: 100;
 }
+
+// Media Queries
+
+$breakpoint-tablet: 768px;
+$breakpoint-iphone6plus: 414px;
+$breakpoint-iphone6: 375px;
+$breakpoint-iphone5: 320px;
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
