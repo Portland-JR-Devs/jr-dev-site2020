@@ -10,7 +10,6 @@ const ExampleComponent = () => {
     setButtonClicked(true)
   }
 
-  const style = { color: 'red' };
 
   return (
     <>
@@ -25,7 +24,7 @@ const ExampleComponent = () => {
         for solum oculi eorum defunctis cerebro. Nescio an Undead zombies. Sicut
         malus movie horror.
       </p>
-      <button onClick={zombieAttack} disabled={buttonClicked}  style={ style }>
+      <button onClick={zombieAttack} disabled={buttonClicked}>
         {buttonText}
       </button>
       {infection ? <h1>{infection}</h1> : null}
