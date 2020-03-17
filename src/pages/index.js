@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import ExampleComponent from "../components/example/Example"
-import CodeOfConduct from "../components/CodeOfConduct/CodeOfConduct"
+import CodeOfConduct from "../components/codeOfConduct/CodeOfConduct"
 
 const IndexPage = () => (
   <Layout>
