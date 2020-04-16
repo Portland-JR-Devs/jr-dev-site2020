@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`About renders correctly 1`] = `
+exports[`About renders correctly: About.test.js 1`] = `
 <div
   className="wrapper-container"
 >

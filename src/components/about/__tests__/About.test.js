@@ -13,7 +13,7 @@ import About from "../About"
 describe("About", () => {
   it("renders correctly", () => {
     const tree = renderer.create(<About />).toJSON()
-    expect(tree).toMatchSnapshot()
+    expect(tree).toMatchSnapshot("About.test.js")
   })
   test("shows component title", () => {
     // ARRANGE
