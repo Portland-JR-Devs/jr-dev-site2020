@@ -32,20 +32,3 @@ describe("About", () => {
     expect(elementWithExpectedText).toBeInTheDocument()
   })
 })
-
-// test("shows component title", () => {
-//   // ARRANGE
-//   render(<AboutComponent />)
-
-//   const regexForTitle = /About Us/i
-
-//   // Get the element that has the text we expect.
-//   const elementWithExpectedText = screen.queryByText(regexForTitle)
-
-//   // ACT
-//   // No user action involved here so no action to take.
-
-//   // ASSERT
-//   // Confirm the element has the expected text
-//   expect(elementWithExpectedText).toBeInTheDocument()
-// })
