@@ -10,6 +10,7 @@ const ExampleComponent = () => {
     setButtonClicked(true)
   }
 
+
   return (
     <>
       <h1>An Example Page Component</h1>

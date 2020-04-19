@@ -3,7 +3,6 @@ import "./about.scss"
 
 const About = props => {
   return (
-    <>
       <div className="outer-container">
         <div className="about-container">
           <h1 id="about-us-header">
@@ -23,7 +22,6 @@ const About = props => {
           </p>
         </div>
       </div>
-    </>
   )
 }
 

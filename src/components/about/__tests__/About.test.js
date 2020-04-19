@@ -12,7 +12,7 @@ import About from "../About"
 
 describe("About", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<About title="ABOUT US"/>).toJSON()
+    const tree = renderer.create(<About title="ABOUT US"/>)
     expect(tree).toMatchSnapshot('About.test.js')
   })
   test("shows component title", () => {
