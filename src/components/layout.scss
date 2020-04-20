@@ -271,6 +271,9 @@ h3 {
   font-size: 1.38316rem;
   line-height: 1.1;
 }
+summary:focus {
+  outline:0 !important;
+}
 h4 {
   margin-left: 0;
   margin-right: 0;
