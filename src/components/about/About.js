@@ -1,13 +1,12 @@
 import React from "react"
 import "./about.scss"
 
-const About = props => {
+const About = () => {
   return (
-      <div className="outer-container">
         <div className="about-container">
-          <h1 id="about-us-header">
-            {props.title}
-          </h1>
+          <h2 id="about-us-header">
+            About Us
+          </h2>
           <p>
             For entry level developers, people interested in starting a new
             career in tech, and anyone wanting to encourage and help newer
@@ -21,7 +20,6 @@ const About = props => {
             are getting their start in tech.
           </p>
         </div>
-      </div>
   )
 }
 
