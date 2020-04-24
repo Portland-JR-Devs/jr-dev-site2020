@@ -10,7 +10,8 @@ exports[`About renders correctly: About.test.js 1`] = `
     About Us
   </h2>
   <p>
-    For entry level developers, people interested in starting a new career in tech, and anyone wanting to encourage and help newer developers. Join us to hear relevant speakers, have a slice of pizza, and make new connections! We look forward to meeting you. If you’d like to be a part of our Slack channel, you can be a part of the 
+    For entry level developers, people interested in starting a new career in tech, and anyone wanting to encourage and help newer developers. Join us to hear relevant speakers, have a slice of pizza, and make new connections! We look forward to meeting you. If you’d like to be a part of our Slack channel, you can be a part of the
+     
     <a
       href="http://bit.ly/JrDevSlackInvite"
     >
@@ -21,5 +22,19 @@ exports[`About renders correctly: About.test.js 1`] = `
   <p>
     PDX Jr. Devs is a community of developers comprised of people that are getting their start in tech.
   </p>
+  <div
+    className="center"
+  >
+    <button
+      className="pill_button join_us"
+    >
+      Join Us!
+    </button>
+    <button
+      className="pill_button volunteer"
+    >
+      Volunteer
+    </button>
+  </div>
 </div>
 `;
