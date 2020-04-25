@@ -8,7 +8,7 @@ export const MeetupItem = ({ meetup }) => {
             <h1>{name}</h1>
             <div dangerouslySetInnerHTML={{ __html: description }} />
             <a href={link}>Event on Meetup</a>
-            <span>{venue.name}</span>
+            {/* <span>{venue.name}</span> */}
             <p>{local_time}, {local_date}</p>
         </div>
     )
