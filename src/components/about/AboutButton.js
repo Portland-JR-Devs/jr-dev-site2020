@@ -2,6 +2,10 @@ import React from "react"
 import "./about.scss"
 
 const AboutButton = props => {
-  return <button className={props.className}>{props.text}</button>
+  return (
+    <a href={props.link} className={props.className}>
+      {props.text}
+    </a>
+  )
 }
 export default AboutButton
