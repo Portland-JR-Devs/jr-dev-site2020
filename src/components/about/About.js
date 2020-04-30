@@ -18,9 +18,17 @@ const About = () => {
         PDX Jr. Devs is a community of developers comprised of people that are
         getting their start in tech.
       </p>
-      <div className="center">
-        <AboutButton text="Join Us!" className="pill_button join_us" />
-        <AboutButton text="Volunteer" className="pill_button volunteer" />
+      <div className="about-button-container">
+        <AboutButton
+          text="Join Us!"
+          link="http://bit.ly/JrDevSlackInvite"
+          className="about-pill-button"
+        />
+        <AboutButton
+          text="Volunteer"
+          link="https://www.meetup.com/Portland-JR-DEVELOPER-Meetup/"
+          className="about-pill-button about-solid-background"
+        />
       </div>
     </div>
   )
