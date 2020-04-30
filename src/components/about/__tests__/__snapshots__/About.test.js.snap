@@ -23,18 +23,20 @@ exports[`About renders correctly: About.test.js 1`] = `
     PDX Jr. Devs is a community of developers comprised of people that are getting their start in tech.
   </p>
   <div
-    className="center"
+    className="about-button-container"
   >
-    <button
-      className="pill_button join_us"
+    <a
+      className="about-pill-button"
+      href="http://bit.ly/JrDevSlackInvite"
     >
       Join Us!
-    </button>
-    <button
-      className="pill_button volunteer"
+    </a>
+    <a
+      className="about-pill-button about-solid-background"
+      href="https://www.meetup.com/Portland-JR-DEVELOPER-Meetup/"
     >
       Volunteer
-    </button>
+    </a>
   </div>
 </div>
 `;
