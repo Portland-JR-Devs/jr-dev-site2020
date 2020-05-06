@@ -9,7 +9,7 @@
   width: 90%;
   padding: 100px 50px 0;
   text-align: center;
-  background-color: #fff;
+  background-color: white;
   border-radius: 2px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,10 +36,18 @@
 
 .about-solid-background {
   background-color: #fccf2b;
-  color: #000;
+  color: black;
 }
 
-.about-pill-button {
+.pill-button:hover,
+.pill-button:focus {
+  outline: 0;
+  width: 165px;
+  height: 45px;
+  box-shadow: 0 0 15px rgba(252, 207, 44, 0.6);
+}
+
+.pill-button {
   border: 2px solid #fccf2b;
   border-radius: 32px;
   width: 160px;
@@ -53,11 +61,11 @@
   line-height: 40px;
 }
 
-a.about-pill-button,
-a.about-pill-button:visited,
-a.about-pill-button:hover {
+a.pill-button,
+a.pill-button:visited,
+a.pill-button:hover {
   text-decoration: none;
-  color: #000;
+  color: black;
 }
 
 .about-button-container {
