@@ -1,3 +1,5 @@
+$yellow: #fccf2b;
+
 .about-container {
   position: relative;
   top: -140px;
@@ -22,7 +24,7 @@
   margin: 0 auto;
   height: 160px;
   width: 100%;
-  box-shadow: 0 -25px 40px -5px #fccf2b;
+  box-shadow: 0 -25px 40px -5px $yellow;
   z-index: -1;
 }
 
@@ -32,40 +34,6 @@
   text-transform: uppercase;
   font-size: 2.5rem;
   margin-bottom: 2rem;
-}
-
-.about-solid-background {
-  background-color: #fccf2b;
-  color: black;
-}
-
-.pill-button:hover,
-.pill-button:focus {
-  outline: 0;
-  width: 165px;
-  height: 45px;
-  box-shadow: 0 0 15px rgba(252, 207, 44, 0.6);
-}
-
-.pill-button {
-  border: 2px solid #fccf2b;
-  border-radius: 32px;
-  width: 160px;
-  height: 40px;
-  display: inline-block;
-  margin-top: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  line-height: 40px;
-}
-
-a.pill-button,
-a.pill-button:visited,
-a.pill-button:hover {
-  text-decoration: none;
-  color: black;
 }
 
 .about-button-container {

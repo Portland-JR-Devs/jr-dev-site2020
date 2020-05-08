@@ -1,5 +1,5 @@
 import React from "react"
-import "./about.scss"
+import "./About.scss"
 import PillButton from "./PillButton"
 
 const About = () => {
