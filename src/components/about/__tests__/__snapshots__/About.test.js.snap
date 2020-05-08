@@ -25,7 +25,7 @@ exports[`About renders correctly: About.test.js 1`] = `
       Join Us!
     </a>
     <a
-      className="pill-button about-solid-background"
+      className="pill-button solid-background"
       href="https://www.meetup.com/Portland-JR-DEVELOPER-Meetup/"
     >
       Volunteer
